@@ -7,7 +7,6 @@ class Main(Tk):
 		super().__init__()
 	
 		self.title("Bank")
-		self.resizable(0,0)
 		self.geometry(f"{self.winfo_screenwidth()}x{self.winfo_screenheight()}")
 		#Temparory Frame
 		temp_frame  = Frame(self)
